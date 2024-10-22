@@ -1,6 +1,6 @@
 <header>
   <h1>
-    Estudos do projeto Kamailio
+    Estudos do servidor SMPP
   </h1>
 </header>
 <div style='display:flex; gap: .5em; margin-bottom: .3em'>
