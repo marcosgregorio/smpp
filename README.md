@@ -33,4 +33,13 @@ SMS Center (SMSC): O SMSC é um componente de rede que armazena, encaminha e ent
 Entidade de Mensagens Curtas Externa (ESME): A ESME é um aplicativo ou sistema que envia ou recebe mensagens SMS.
 Em resumo, o SMSC é uma infraestrutura de rede que gerencia mensagens SMS, enquanto a ESME é um aplicativo ou sistema que envia ou recebe mensagens SMS.
 
+Exemplo:
+  - O nosso servidor SMPP é um SMSC;
+  - Enviamos a mensagem para um número atráves de uma aplicação (ESMC);
+  - Está mensagem é passada para o SMSC;
+  - SMSC redireciona essa mensagem para o número;
+
 ![image](https://github.com/user-attachments/assets/b838a787-829d-47f9-8ff1-a710c7436e40)
+
+O SMPP assim como HTTP tem uma tamanho fixo de bytes para cada requisição SMPP.
+![link](https://smpp.org/#smppexample)
