@@ -3,7 +3,6 @@ const smpp = require('smpp');
 // Cria a sessão SMPP
 const session = new smpp.Session({ host: '127.0.0.1', port: 2775, auto_enquire_link_period: 10000 });
 
-// Lida com a conexão da sessão
 session.on('connect', () => {
   console.log('Connected');
   session.bind_transceiver({
