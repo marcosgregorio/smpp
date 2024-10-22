@@ -1,5 +1,3 @@
-# smpp
-
 <header>
   <h1>
     Estudos do projeto Kamailio
