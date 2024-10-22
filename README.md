@@ -42,4 +42,4 @@ Exemplo:
 ![image](https://github.com/user-attachments/assets/b838a787-829d-47f9-8ff1-a710c7436e40)
 
 O SMPP assim como HTTP tem uma tamanho fixo de bytes para cada requisição SMPP.
-![link](https://smpp.org/#smppexample)
+[Exemplo de corpo de requisição usando submit_sm / submit_sm_resp](https://smpp.org/#smppexample)
